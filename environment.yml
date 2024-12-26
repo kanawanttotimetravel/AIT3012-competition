@@ -1,0 +1,21 @@
+name: eeg_competition
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - numpy
+    - pandas
+    - matplotlib
+    - tqdm
+    - scipy
+    - h5py
+    - scikit-learn
+    - torch
+    - pytorch-lightning
+    - torchmetrics
+    - optuna
+    - wandb
+    - jupyter
